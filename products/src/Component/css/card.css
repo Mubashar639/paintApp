@@ -1,0 +1,116 @@
+
+
+.MuiPaper-elevation1-5{
+    box-shadow: none !important;
+}
+
+.card{
+   
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    border: none !important;
+    
+   
+
+}
+
+.cards{
+/* float: left; */
+    width: 300px ;
+    height: 227px;
+    padding: 10px;
+    border-radius:"12px";
+    margin:3px; 
+text-align: right;
+}
+
+.Linktext{
+    text-align: right;
+    text-transform: none;
+    font-size: 18px;
+    font-weight: 600;
+    right: -4px;
+    border: none;
+    padding: 10px 20px;
+    margin-top:0px ;
+   padding-left: 137px;
+   padding-right:17px;
+   margin-right: -11px;
+   text-decoration: none;
+   color: black;
+   /* margin-left: 30px; */
+    background-color: #FBD232;
+    position: relative;
+    top: -95px;
+}
+.hexaElement{
+    transform: rotate(90deg);
+    position: relative;
+    top: 32px; 
+     left: -105px;
+     z-index: 100;
+}
+
+.hexaBody{
+display: inline-block;
+background-color: black;
+width: 71px;
+height: 46.21px;
+position: relative;
+top: -13px;
+left: -197px;
+}
+
+
+
+.hexagon {
+    position: relative;
+    /* width: 300px;  */
+    /* height: 173.21px; */
+    top: -66px;
+    left: 32px;
+    width:0px;
+    height: 45.21px;
+    background-color: rgb(2, 5, 5);
+    margin: 2.6px 0;
+    /* transform: rotate(90deg) */
+  }
+  
+
+
+  /* position: relative; */
+  /* width: 300px; */
+  /* height: 173.21px; */
+  /* top: -66px; */
+  /* left: 32px; */
+  /* width: 0px; */
+  /* height: 45.21px; */
+  /* background-color: rgb(2, 5, 5); */
+  /* margin: 2.6px 0; */
+  /* transform: rotate(90deg); */
+
+
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 37px solid transparent;
+    border-right:37px solid transparent;
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 18.6px solid rgb(4, 8, 8);
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 18.6px solid rgb(0, 0, 0);
+  }
+
+
+
+
