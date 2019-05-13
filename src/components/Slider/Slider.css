@@ -1,0 +1,212 @@
+.container {
+    position: relative;
+}
+
+.sliderContainer {
+    height: 485px;
+}
+
+.slide1 {
+    position: relative;
+    height: 30rem;
+    background-image: url('../../images/home01-slide02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide2 {
+    position: relative;
+    height: 30rem;
+    background-image: url('../../images/home01-slide01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide3 {
+    position: relative;
+    height: 30rem;
+    background-image: url('../../images/new-home01-slide02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image1 {
+    opacity: 0;
+    height: 20rem;
+    position: absolute;
+    top: 7rem;
+    left: 8rem;
+    animation: image1 1.5s ease 3s forwards ;
+}
+
+.image2 {
+    opacity: 0;
+    height: 20rem;
+    position: absolute;
+    top: 7rem;
+    left: 20rem;
+    animation: image2 1.5s ease 3.2s forwards;
+}
+
+.image3 {
+    opacity: 0;
+    height: 23rem;
+    position: absolute;
+    top: 4rem;
+    right: 11rem;
+    animation: image3 1.5s ease 3.3s forwards;
+}
+
+@keyframes image1 {
+    0% {
+        height: 20rem;
+        opacity: 0.5;
+    }
+    100% {
+        height: 23rem;
+        opacity: 1;
+
+    }
+}
+
+@keyframes image2 {
+    0% {
+        height: 20rem;
+        opacity: 0.5;
+    }
+    100% {
+        height: 23rem;
+        opacity: 1;
+    }
+}
+
+@keyframes image3 {
+    0% {
+        height: 23rem;
+        opacity: 0.5;
+    }
+    100% {
+        height: 26rem;
+        opacity: 1;
+    }
+}
+
+.image4 {
+    height: 2.5rem;
+    position: relative;
+}
+
+.textDiv {
+    position: absolute;
+    top: 8rem;
+    left: 36rem;
+    text-align: start
+}
+
+.text1 {
+    color: #F8CF07;
+    font-size: 40px;
+    line-height: 0
+}
+
+.text2 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 1
+}
+
+.btn {
+    height: 35px;
+    width: 170px;
+    background: #F8CF07;
+    padding: 0;
+    border: 0;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #000;
+}
+
+.left-arrow {
+    cursor: pointer;
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: #fff;
+    z-index: 100;
+    top: 41%;
+    left: 2rem;
+    opacity: 0;
+    transition: opacity ease-out 1s;
+}
+.leftIcon, .rightIcon {
+    font-size: 40px;
+    opacity: 0.7;
+    margin-top: 7px
+}
+
+.right-arrow {
+    cursor: pointer;
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: #fff;
+    z-index: 100;
+    top: 41%;
+    right: 2rem;
+    opacity: 0;
+    transition: opacity ease-out 1s;
+}
+
+.container:hover .right-arrow {
+    opacity: 1;
+}
+
+.container:hover .left-arrow {
+    opacity: 1;
+}
+
+.slide3textDiv {
+    position: absolute;
+    left: 17rem;
+    text-align: start;
+    top: 12rem;
+}
+
+.slide1textDiv {
+    position: absolute;
+    top: 4rem;
+    left: 31rem;
+    text-align: -webkit-center
+}
+
+.image5 {
+    width: 5rem;
+}
+
+.slick-dots {
+    opacity: 0;
+    bottom: 20px;
+    transition: opacity ease-out 1s;
+}
+
+.container:hover .slick-dots {
+    opacity: 1;
+}
+
+.slick-dots li {
+    background-color: rgb(151, 143, 143);
+    width: 32px;
+    height: 4px;
+    margin: 0 3px;
+}
+
+.slick-dots li button:before {
+    content: none;
+}
+
+.slick-dots li.slick-active {
+    background-color: #FFFFFF;
+}
