@@ -1,19 +1,16 @@
 {
-<<<<<<< HEAD
   "name": "themapp",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@material-ui/core": "^3.9.3",
-=======
+
   "name": "renovation-eweb",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
->>>>>>> bf879a138c40d21c1139481dc989c1cab7c09c80
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "@material-ui/core": "^3.9.3"
   },
   "scripts": {
     "start": "react-scripts start",
