@@ -24,4 +24,7 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
+>>>>>>> bf879a138c40d21c1139481dc989c1cab7c09c80
+=======
 >>>>>>> bf879a138c40d21c1139481dc989c1cab7c09c80
