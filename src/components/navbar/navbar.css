@@ -1,0 +1,115 @@
+.arrow {
+
+    top: -1px;
+    left: 54px;
+    width: 100px;
+    border-left: 50px solid transparent;
+    border-right: 59px solid #FBD232;
+    border-bottom: 27px solid #FBD232;
+    border-top: 25px solid #FBD232;
+    border-left: 24px solid transparent;
+}
+
+
+.arrow1 {
+  border-left: 35px solid transparent;
+    border-right: -2px solid #FBD232;
+    border-bottom: 37px solid #FBD232;
+    transform: rotate(316deg);
+    position: absolute;
+    left: 165px;
+    top: 7px;
+
+  }
+.relative2{
+    position: relative;
+    display: flex;
+    flex-wrap:wrap; 
+}
+.relative2:hover .arrow{
+    top: -1px;
+    left: 54px;
+    width: 100px;
+    border-left: 50px solid transparent;
+    border-right: 59px solid #ffffff;
+    border-bottom: 27px solid #ffffff;
+    border-top: 25px solid #ffffff;
+   
+    border-left: 24px solid transparent;
+}
+.relative2:hover .arrow1{
+    border-left: 35px solid transparent;
+    border-right: -2px solid #ffffff;
+    border-bottom: 37px solid #ffffff;
+    transform: rotate(316deg);
+    position: absolute;
+    left: 165px;
+    top: 7px;
+}
+
+ 
+.relative1{
+    position: relative;
+      display: flex;
+      flex-wrap: wrap;
+   
+}
+
+
+
+
+
+
+  .arrow_First{
+    margin-right: -13px;
+    width: 100px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid #FBD232;
+    border-bottom: 25px solid #FBD232;
+    border-top: 27px solid #FBD232;
+    border-left: 0px solid transparent;
+
+
+
+
+
+}
+
+
+
+ 
+
+.arrow_Second {
+    margin-left: -23px;
+    margin-top: -36px;
+
+    border-left: 37px solid transparent;
+    border-right: -2px solid #FBD232;
+    border-bottom: 39px solid #FBD232;
+    transform: rotate(316deg);
+    /* position: absolute; */
+    left: 236px;
+    top: 5px;
+}
+.relative1:hover .arrow_First{
+    width: 100px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid  #ffffff;
+    border-bottom: 25px solid #ffffff;
+    border-top: 27px solid #ffffff;
+    border-left: 0px solid transparent;
+
+   
+ } 
+
+
+ .relative1:hover .arrow_Second {
+
+    border-left: 37px solid transparent;
+    border-right: -2px solid #ffffff;
+    border-bottom: 39px solid #ffffff;
+    transform: rotate(316deg);
+    /* position: absolute; */
+    left: 236px;
+    top: 5px;
+}

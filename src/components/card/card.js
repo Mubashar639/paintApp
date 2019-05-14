@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import '../css/card.css'
+import './card.css'
 import Card from '@material-ui/core/Card';
+
 class CardImages extends Component {
     constructor() {
         super()
@@ -60,6 +61,9 @@ class CardImages extends Component {
                     )
                 })}
 
+<div>
+
+</div>
             </div>
         )
     }
