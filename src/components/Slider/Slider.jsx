@@ -3,7 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Slider.css'
-import anime from 'animejs';
+import './Slide3text2.css'
+import './Text1-animation.css'
 //imports images
 import image1 from '../../images/home01-slide01-obj3.png'
 import image2 from '../../images/home01-slide01-obj2.png'
@@ -16,30 +17,6 @@ import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 
 
 export default class SliderComponent extends Component {
-	componentDidMount() {
-		this.anime();
-	}
-
-	componentDidUpdate() {
-		this.anime();
-	}
-	anime = () => {
-		anime({
-			targets: '.text2',
-			translateY: '-1rem',
-			opacity:1,
-			// rotate: '2turn',
-			duration: 3000,
-			delay: 2000
-		});
-		anime({
-			targets: '.text1',
-			translateX: '0rem',
-			rotate: '1turn',
-			duration: 3000,
-			delay:1000
-		});
-	};
 	next = () => {
 		this.slider.slickNext();
 	}
@@ -74,14 +51,45 @@ export default class SliderComponent extends Component {
 						<img src={image3} alt="" className="image3" />
 						<div className="textDiv">
 							<img src={image4} alt="" className="image4" />
-							<h2 className='text1'>PROFESSIONALS</h2>
+							<div className='Slid1text1'>
+								<div className="p">P</div>
+								<div className="r">R</div>
+								<div className="o1">O</div>
+								<div className="f">F</div>
+								<div className="e">E</div>
+								<div className="s1">S</div>
+								<div className="s2">S</div>
+								<div className="i">I</div>
+								<div className="o2">O</div>
+								<div className="n">N</div>
+								<div className="a">A</div>
+								<div className="l">L</div>
+								<div className="s3">S</div>
+							</div>
 							<h2 className='text2'>HYDDIMAN SERVICES</h2>
 							<button className='btn'>FINDOUT MORE >></button>
 						</div>
 					</div>
 					<div className='slide2'>
 						<div className="slide2textDiv">
-							<h2 className='text1'>PROFESSIONALS</h2>
+							{/* <h2 className='Slid2text1'>
+								PROFESSIONALS
+							</h2> */}
+							<div className='Slid1text1'>
+								<div className="p">P</div>
+								<div className="r">R</div>
+								<div className="o1">O</div>
+								<div className="f">F</div>
+								<div className="e">E</div>
+								<div className="s1">S</div>
+								<div className="s2">S</div>
+								<div className="i">I</div>
+								<div className="o2">O</div>
+								<div className="n">N</div>
+								<div className="a">A</div>
+								<div className="l">L</div>
+								<div className="s3">S</div>
+							</div>
 							<h2 className='text2'>HYDDIMAN SERVICES</h2>
 							<button className='btn'>FINDOUT MORE >></button>
 						</div>
@@ -89,10 +97,26 @@ export default class SliderComponent extends Component {
 					<div className='slide3'>
 						<div className="slide3textDiv">
 							<img src={image5} alt="" className="image5" />
-							<h2 className='text2'>HYDDIMAN SERVICES</h2>
+							<div className='slide3text2'>
+								<div className="W">W</div>
+								<div className="E">E</div>
+								<div className="C">C</div>
+								<div className="A1">A</div>
+								<div className="N1">N</div>
+								<div className="D">D</div>
+								<div className="O">O</div>
+								<div className="A2">A</div>
+								<div className="N2">N</div>
+								<div className="Y">Y</div>
+								<div className="T">T</div>
+								<div className="H">H</div>
+								<div className="I">I</div>
+								<div className="N3">N</div>
+								<div className="G">G</div>
+								<div className="LAST">!</div>
+							</div>
 							<button className='btn'>FINDOUT MORE >></button>
 						</div>
-
 					</div>
 				</Slider>
 			</div>
