@@ -150,7 +150,7 @@
     height: 26rem;
     position: absolute;
     top: 4rem;
-    right: 11rem;
+    left: 59rem;
     /* animation: image3 1.5s ease 2.3s forwards; */
 }
 
@@ -216,7 +216,7 @@
         height: 20rem;
         position: absolute;
         top: 10rem;
-        right: 33rem;
+        left: 14rem;
         /* animation: image3 1.5s ease 2.3s forwards; */
     }
     .slide3textDiv {
