@@ -1,0 +1,33 @@
+.toptip{
+    width: 100%;
+    background-color: #222222; 
+    margin:0px;
+    align-items: center;
+    text-align: center;
+    color: rgba(255,255,255,.6) !important;
+}
+
+.para:hover{
+    color:white;
+}
+.para{
+    color: rgba(255,255,255,.6);
+    width: 100%;
+    position: relative;
+    top:-4px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+body{
+    margin: 0px;
+}
+.btntop{
+    position: relative;
+    color: rgba(255,255,255,.6) !important;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+.btntop:hover{
+    color:  white !important;
+}
+

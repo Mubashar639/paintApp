@@ -1,0 +1,22 @@
+.costcalculator{
+    display: inline-block;
+    position: fixed;
+    padding: 20px;
+    width: 360px;
+    height: 86px;
+    bottom: 30px;
+    right: 100px;
+    background-color: white;
+    box-shadow: -1px 1px 15px  #afadad;
+    z-index: 1000;
+}
+
+.notice{
+    color: #777777;
+}
+
+@media only screen and (max-width: 1000px) {
+    .costcalculator {
+     display: none;
+    }
+  }

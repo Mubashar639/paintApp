@@ -11,12 +11,12 @@
 
 .slick-slide img {
     opacity: 0 !important;
-    animation: slide 1s ease-in-out 1.8s forwards;
+    animation: slide .3s ease-in-out .8s forwards;
 }
 
 .slick-active img {
     opacity: 0 !important;
-    animation: active 1s ease-in-out 1s forwards;
+    animation: active .3s ease-in-out .4s forwards;
 }
 
 @keyframes slide {

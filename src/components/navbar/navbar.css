@@ -9,6 +9,11 @@
     border-top: 25px solid #FBD232;
     border-left: 24px solid transparent;
 }
+.Firstheader{
+  background-color:rgb(49, 55, 67);
+                width :98vw;
+                height: 300px;
+}
 
 
 .arrow1 {
@@ -43,6 +48,7 @@
     border-bottom: 37px solid #ffffff;
     transform: rotate(316deg);
     position: absolute;
+    cursor: pointer;
     left: 165px;
     top: 7px;
 }
@@ -55,11 +61,6 @@
    
 }
 
-
-
-
-
-
   .arrow_First{
     margin-right: -13px;
     width: 100px;
@@ -68,11 +69,6 @@
     border-bottom: 25px solid #FBD232;
     border-top: 27px solid #FBD232;
     border-left: 0px solid transparent;
-
-
-
-
-
 }
 
 
@@ -112,4 +108,33 @@
     /* position: absolute; */
     left: 236px;
     top: 5px;
+}
+
+.textStyle1{
+  position: absolute;
+  top: 13px;
+  left:22px;    
+  font-size: 18px;
+  font-weight: 700;
+}
+.textStyle2{
+  position: absolute;
+  left: 42px;
+  top: 13px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.heading h1{
+  font-size: 36px;
+  color: #ffffff;
+  text-align: left;
+  padding-left:100px;
+  padding-top: 43px;
+}
+.paraGraph p{
+  font-size: 16px;
+  color: #ffffff;
+  text-align: left;
+  padding-left:100px
 }
